@@ -47,10 +47,10 @@ What do the following commands do:
 > > `ls` - lists all files in the current working directory, except hidden files  
 > > `ls -a` - list all files including hidden files  
 > > `ls -l` - list all non-hidden files in a long format  
-> > `ls -lh`  - list all non-hidden files in a long format and use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.
-> > `ls -lah` - list all files in a long format and use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.
+> > `ls -lh`  - list all non-hidden files in a long format and use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.  
+> > `ls -lah` - list all files in a long format and use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.  
 > > `ls -t` - list non-hidden files in sorted by modified time  
-> > `ls -Glp` - list non-hidden files with color and add '/' if it is directory 
+> > `ls -Glp` - list non-hidden files with color and add '/' if it is directory  
 
 ---
 
