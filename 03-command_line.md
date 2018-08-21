@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1. pwd - show current working directory path
+> > 2. mkdir [directory] - create a new directory
+> > 3. rm -r [directory] - deletes a directory and all of its contents
+> > 4. touch [filename] - creates an empty file
+> > 5. rm [filename] - removes the specified file
+> > 6. mv [old filename] [new filename] - renames the old filename to the new filename
+> > 7. ls -a - lists all files, including the hidden files
+> > 8. cp [directory/filename] [destination directory] - copies a file to a directory
+> > 9. grep -R [phrase] - search in all files in the current directory for the provided phrae
+> > 10. less [filename] - displays the contents of a file and able to page through the file
 
 ---
 
@@ -35,7 +44,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` - lists all files in the current working directory, except hidden files  
+> > `ls -a` - list all files including hidden files  
+> > `ls -l` - list all non-hidden files in a long format  
+> > `ls -lh`  - list all non-hidden files in a long format and use unit suffixes: Byet, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.
+> >`ls -lah` - list all files in a long format and use unit suffixes: Byet, Kilobyte, Megabyte, Gigabyte, Terabyte, and Petabyte.
+
+`ls -t` - list non-hidden files in sorted by modified time  
+`ls -Glp` - list non-hidden files with color and add '/' if it is directory 
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1. ls -m - displays the names as a comma-separated list
+> > 2. ls -p - displays the directories with /
+> > 3. ls -R - displays subdirectories as well
+> > 4. ls -u - displays files by the file access time
+> > 5. ls -d - displays only directories 
 
 ---
 
@@ -51,7 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'xargs' reads STDIN stream of data and converts into space separated arugments to the commnand. For example, executing 'xargs -L 1 touch' will use STDIN and submit line by line as an argument for the touch command.
+ 
 
  
 
