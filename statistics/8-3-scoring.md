@@ -2,6 +2,6 @@
 
 ---
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The solution to the chapeter 8 excercise 3 can be found at [chap08exc03.ipnyb](chap08exc03.ipynb)
 
 ---

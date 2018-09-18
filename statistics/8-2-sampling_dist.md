@@ -1,3 +1,3 @@
 [Think Stats Chapter 8 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2009.html#toc77) (scoring)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The solution to the chapeter 8 excercise 2 can be found at [chap03exc01.ipnyb](chap08exc02.ipynb)
